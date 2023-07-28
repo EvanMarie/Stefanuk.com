@@ -1,0 +1,32 @@
+.content-section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+.section-one {
+    background-color: var(--darker);
+    color: var(--lighter);
+}
+
+.section-two {
+    background-color:var(--darker);
+    color: var(--lighter);
+}
+
+.section-three {
+    background-color:var(--darker);
+    color: var(--lighter);
+}
+
+.section-four {
+    background-color:var(--darker);
+    color: var(--lighter);
+}
+
+.section-five {
+    background-color:var(--darker);
+    color: var(--lighter);
+}

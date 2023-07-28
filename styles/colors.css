@@ -1,0 +1,20 @@
+:root {
+    --lighter: #CFCDFF;
+    --lighterTransparent: rgba(207, 205, 255, 0.5);
+    --light: #B8CDFF;
+    --lightTransparent: rgba(184, 205, 255, 0.5);
+    --medium: #5C667F;
+    --mediumTransparent: rgba(92, 102, 127, 0.5);
+    --dark: #2E3340;
+    --darkTransparent: rgba(46, 51, 64, 0.5);
+    --darker: #232730;
+    --darkerTransparent: rgba(35, 39, 48, 0.5);
+    --hoverLight: #8290FA;
+    --hoverLightTransparent: rgba(130, 144, 250, 0.5);
+    --hoverDark: #444B82;
+    --hoverDarkTransparent: rgba(68, 75, 130, 0.5);
+    --accentLight: #A6B8E5;
+    --accentLightTransparent: rgba(166, 184, 229, 0.5);
+    --accentDark: #3F4C8B;
+    --accentDarkTransparent: rgba(63, 76, 139, 0.5);
+}

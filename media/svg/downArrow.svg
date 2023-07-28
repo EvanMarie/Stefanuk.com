@@ -1,0 +1,29 @@
+<svg 
+width="40px" 
+height="40px" 
+viewBox="0 0 24 24" 
+fill="#232730" 
+xmlns="http://www.w3.org/2000/svg">
+<g id="downArrow" stroke-width="">
+</g><g id="downArrow02" 
+stroke-linecap="round" 
+stroke-linejoin="round" 
+stroke="#CFCDFF" 
+stroke-width="1.9200000000000004"> 
+<circle cx="12" cy="12" r="10" 
+stroke="#CFCDFF" stroke-width="2.5">
+</circle> <path d="M15 10.5L12 13.5L9 10.5" 
+stroke="#CFCDFF" 
+stroke-width="1.5" 
+stroke-linecap="round" 
+stroke-linejoin="round"></path> 
+</g><g id="downArrow03"> 
+<circle cx="12" cy="12" r="10" 
+stroke="#" 
+stroke-width="2.5">
+</circle> 
+<path d="M15 10.5L12 13.5L9 10.5" 
+stroke="#CFCDFF" 
+stroke-width="2.5" 
+stroke-linecap="round" 
+stroke-linejoin="round"></path> </g></svg>

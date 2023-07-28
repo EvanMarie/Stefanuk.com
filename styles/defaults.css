@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* make sure no default padding or margin */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: var(--light);
+}
+
+/*
+tab sizes, line height, text size adjustment removed
+*/
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+     tab-size: 4;
+  background-color: var(--darker);
+  color: var(--lighter);
+  font-size: 62.5%;
+  font-family: 'M PLUS 1', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  line-height: inherit;
+  overflow: hidden;
+}
+
+header {
+  position: relative;
+}
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/* no padding or margin on these elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* no margin on these elements */
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+small {
+  font-size: 80%;
+}
+
+/*
+Sub and superscript
+*/
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+
+/*
+font, margin, padding- all browsers reset
+*/
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+No text transform in Edge and Firefox.
+*/
+button,
+select {
+  text-transform: none;
+}
+
+/*
+No default button styles.
+*/
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button;
+  background-color: transparent;
+  background-image: none;
+}
+
+/*
+Firefox focusing
+*/
+:-moz-focusring {
+  outline: auto;
+}
+
+/* Firefox invalid styles removed */
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/* No inner padding in Chrome and Safari on iOS. */
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+Style clickable types in iOS and Safari.
+Font properties to `inherit` in Safari.
+*/
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+/* Uniform display */
+summary {
+  display: list-item;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* always use cursor pointer on buttons */
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/* maintain aspect ratio */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.snapScroll{
+  height: 100vh;
+  scroll-snap-type: y var(--tw-scroll-snap-strictness);
+  --tw-scroll-snap-strictness: mandatory;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0ms;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 55%;
+  }
+}
+
