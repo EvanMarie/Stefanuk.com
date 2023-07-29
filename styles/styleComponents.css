@@ -3,7 +3,7 @@ h1 {
     font-weight: 700;
     margin-bottom: 10px;
     color: var(--accentLight);
-    text-shadow: var(--xlargeGlowDark);
+    text-shadow: var(--xlargeShadowDark);
 }
 
 .center {

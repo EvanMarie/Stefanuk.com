@@ -31,8 +31,15 @@
 
 @media (min-width: 1300px) {
     .content-content {
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 75px;
+        padding-left: 75px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .content-content {
+        padding-right: 125px;
+        padding-left: 125px;
     }
 }
 
@@ -73,7 +80,7 @@
     text-align: left;
     width: 100%;
     font-size: 1.63rem;
-    background-color: var(--darkTransparent);
+    background-color: var(--darkerTransparent);
     color: var(--lighter);
     padding: 20px;
     border-radius: var(--radius);
@@ -192,5 +199,26 @@
 
     .section-five {
         background-image: url("../media/images/section05.png");
+    }
+}
+
+.section-six {
+    color: var(--lighter);
+    background-image: url("../media/images/section06Mobile.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media (min-width: 525px) {
+    .section-six .content-content {
+        align-items: flex-end;
+    }
+
+    .section-six {
+        background-image: url("../media/images/section06.png");
     }
 }

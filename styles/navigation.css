@@ -28,13 +28,25 @@
     padding-bottom: 0.5rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-    font-size: 1.75rem;
+    font-size: 1.85rem;
     line-height: 2rem;
-    font-weight: 500;
+    font-weight: 600;
     outline: 2px solid transparent;
     outline-offset: 2px;
     transition-duration: 200ms;
     text-shadow: var(--xlargeGlowLight);
+}
+
+@media (min-width: 1300px) {
+    .navItems {
+        font-size: 2.1rem;
+    }
+}
+
+@media (min-width: 1500px) {
+    .navItems {
+        font-size: 2.25rem;
+    }
 }
 
 .navItems:hover {
@@ -95,6 +107,13 @@
     font-size: 2rem;
 }
 
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
 .close {
     width: 100%;
     display: flex;
@@ -137,7 +156,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
 
 }
 

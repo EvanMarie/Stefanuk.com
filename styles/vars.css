@@ -11,12 +11,12 @@
     --dark: #2E3340;
     --darkTransparent: rgba(46, 51, 64, 0.95);
     --darker: #232730;
-    --darkerTransparent: rgba(35, 39, 48, 0.5);
+    --darkerTransparent: rgba(35, 39, 48, 0.95);
     --hoverLight: #8290FA;
     --hoverLightTransparent: rgba(130, 144, 250, 0.5);
     --hoverDark: #444B82;
     --hoverDarkTransparent: rgba(68, 75, 130, 0.5);
-    --accentLight: #7d95ff;
+    --accentLight: #8dd0fc;
     --accentLightTransparent: rgba(166, 184, 229, 0.8);
     --accentDark: #3F4C8B;
     --accentDarkTransparent: rgba(63, 76, 139, 0.5);
@@ -53,5 +53,11 @@
     /* DEFAULT BORDER RADIUS */
 
     --radius: 5px;
+
+
+    /* FACEBOOK */
+    --facebookWidth: 400px;
+    --facebookHeight: 600px;
+
 }
 

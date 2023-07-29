@@ -9,7 +9,6 @@
   </title>
   <link rel="shortcut icon" href="" type="image/x-icon" />
   <link rel="stylesheet" href="./styles/animate.css" />
-
   <link rel="stylesheet" href="./styles/vars.css" />
   <link rel="stylesheet" href="./styles/defaults.css" />
   <link rel="stylesheet" href="./styles/content.css" />
@@ -23,19 +22,35 @@
 </head>
 
 <body>
+  <div id="fb-root"></div>
+  <!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0"
+    nonce="pVvLSW95"></script> -->
   <div id="sideNav" class="sideNav invisible">
     <div class="close" id="closeIcon">
-      <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
       <img src="./media/svg/closeButton.svg" />
     </div>
     <div class="sideNavStack">
-      <a href="#" class="navItems sideNavItems" id="navOne"></a>
-      <a href="#" class="navItems sideNavItems" id="navTwo"></a>
-      <a href="#" class="navItems sideNavItems" id="navThree"></a>
-      <a href="#" class="navItems sideNavItems" id="navFour"></a>
-      <a href="#" class="navItems sideNavItems" id="navFive"></a>
-      <a href="#" class="navItems sideNavItems" id="navSix"></a>
-      <a href="#" class="navItems sideNavItems" id="navSeven"></a>
+      <a href="#" class="navItems sideNavItems" id="navOne">Link One</a>
+      <a href="#" class="navItems sideNavItems" id="navTwo">Link Two</a>
+      <a href="#" class="navItems sideNavItems" id="navThree">Link Three</a>
+      <a href="#" class="navItems sideNavItems" id="navFour">Link Four</a>
+      <a href="#" class="navItems sideNavItems" id="navFive">Link Five</a>
+      <a href="#" class="navItems sideNavItems" id="navSix">Resume</a>
+    </div>
+
+    <div class="socialMedia">
+      <a href="https://www.facebook.com/misha.stefanuk" target="_blank">
+        <img src="./media/svg/facebook.svg" />
+      </a>
+      <a href="https://www.instagram.com/mishastefanuk/" target="_blank">
+        <img src="./media/svg/instagram.svg" />
+      </a>
+      <a href="https://www.youtube.com/channel/UC9Z3Z2Z3Z2Z2Z2" target="_blank">
+        <img src="./media/svg/youtube.svg" />
+      </a>
+      <a href="mailto:misha@stefanuk.com" target="_blank">
+        <img src="./media/svg/email.svg" />
+      </a>
     </div>
   </div>
   <main id="mainDiv" class="snapScroll">
@@ -52,8 +67,8 @@
           <a href="#three" class="navItems hiddenNav">Awards</a>
           <a href="#four" class="navItems hiddenNav">Performance</a>
           <a href="#five" class="navItems hiddenNav">Publication</a>
-          <a href="#six" class="navItems hiddenNav">Teaching</a>
-          <a href="#seven" class="navItems hiddenNav">Education</a>
+          <a href="#six" class="navItems hiddenNav">Education</a>
+          <a href="#seven" class="navItems hiddenNav">Events</a>
 
         </div>
 
@@ -67,21 +82,21 @@
     <!-- SECTION ONE -->
     <section id="one" class="content-section section-one">
       <div class="content-content"> </div>
-        <div class="upDown">
-          <a href="#two">
-            <div class="next">
-              <img src="./media/svg/downArrow.svg" />
-            </div>
-          </a>
-        </div>
-     
+      <div class="upDown">
+        <a href="#two">
+          <div class="next">
+            <img src="./media/svg/downArrow.svg" />
+          </div>
+        </a>
+      </div>
+
     </section>
 
     <!-- SECTION TWO -->
     <section id="two" class="content-section section-two">
       <div class="content-content">
         <div class="content-text">
-          <h1>Bio</h1>
+          <h1>About</h1>
           <p>A renowned jazz and classical pianist, organist, and composer, Misha Stefanuk has been a dynamic presence
             in the music
             industry since 1986. His contributions span over a hundred TV credits, including Good Morning America and
@@ -98,26 +113,27 @@
             role in NBC's
             Constantine.</p>
 
-          <p>Educated at Boston University and Moscow Conservatory, Misha is a decorated musician, with awards like the
-            Stereotypes
-            and Nations Composition Competition in Poland. His prolific career encompasses successful performances,
-            influential
-            compositions, and significant contributions to music literature.</p>
-        </div></div>
-        <div class="upDown">
-          <a href="#three">
-            <div class="next">
-              <img src="./media/svg/downArrow.svg" />
-            </div>
-          </a>
-          <a href="#one">
-                    <div class="previous">
-                      <img src="./media/svg/upArrow.svg" />
-                    </div>
-   
-          </a>
+          <p>Educated at Boston University and Moscow Conservatory, Misha is a decorated musician, voting member of the
+            Grammy’s with
+            awards like the Stereotypes and Nations Composition Competition in Poland. His prolific career encompasses
+            successful
+            performances, influential compositions, and significant contributions to music literature.</p>
         </div>
-      
+      </div>
+      <div class="upDown">
+        <a href="#three">
+          <div class="next">
+            <img src="./media/svg/downArrow.svg" />
+          </div>
+        </a>
+        <a href="#one">
+          <div class="previous">
+            <img src="./media/svg/upArrow.svg" />
+          </div>
+
+        </a>
+      </div>
+
 
     </section>
 
@@ -129,23 +145,32 @@
           <h1>Awards</h1>
 
           <p>Misha Stefanuk is a highly regarded musician known for his outstanding achievements in the music industry.
-            His work "100 Easy Piano Classics" earned the top spot on SheetMusicPlus in 2017, similar to his "Christmas
-            Easy Piano" collection which was the number one piano download in 2016. His skills were further recognized
-            when he was named a finalist in an Easy Piano competition and won the 2016 arranging contest for the
-            "Mission Impossible" theme.
+            His work "100
+            Easy Piano Classics" earned the top spot on SheetMusicPlus in 2017, similar to his "Christmas Easy Piano"
+            collection
+            which was the number one piano download in 2016. His skills were further recognized when he was named a
+            finalist in an
+            Easy Piano competition and won the 2016 arranging contest for the arrangement of "Mission Impossible" theme.
 
           </p>
-          <p>Stefanuk's Jazz Piano works with Mel Bay Publications were bestsellers from 2002 to 2011, showcasing his
-            longevity in the industry. His musical talents were also acknowledged on a global scale with an Honorable
-            Mention at the Billboard World Song Contest in 2004, and he was named the Outstanding Pianist at the Lionel
-            Hampton Jazz Festival in 1997.</p>
+          <p>Stefanuk's Jazz Piano works with Mel Bay Publications were bestsellers from 2002 to 2018, showcasing his
+            longevity in
+            the industry. His musical talents were also acknowledged on a global scale with an Artist of the Year
+            Absolute Winner,
+            IYMC International Competition, 2022, and he was named the Outstanding Pianist at the Lionel Hampton Jazz
+            Festival in
+            1997.</p>
           <p>In addition to his professional success, Stefanuk had significant academic accomplishments. At Belmont
-            University, he won the Concerto Aria Composition Competition and made the Dean’s List in 1993 and 1994. He
-            also studied abroad at the Russian Academy of Music in 1993 and won a special prize in a composition
-            competition in Krakow, Poland the same year.</p>
+            University, he
+            won the Concerto Aria Composition Competition and made the Dean’s List in 1993 and 1994. He also studied at
+            the Russian
+            Academy of Music, graduated from Moscow Conservatory School and won a special prize in a composition
+            competition in
+            Krakow, Poland in 1992.</p>
 
         </div>
-      </div></div>
+      </div>
+      </div>
       <div class="upDown">
         <a href="#four">
           <div class="next">
@@ -154,10 +179,11 @@
         </a>
         <a href="#two">
           <div class="previous">
-          <img src="./media/svg/upArrow.svg" /></div>
+            <img src="./media/svg/upArrow.svg" />
+          </div>
         </a>
       </div>
-  
+
 
     </section>
 
@@ -166,52 +192,152 @@
       <div class="content-content">
         <div class="content-text">
           <h1>Performance</h1>
-          <p>Misha Stefanuk has had a multifaceted musical career. Currently, he serves as the accompanist at Glen Memorial UMC,
-          Decatur, GA and as the music director at Winters Chapel UMC, Atlanta, GA. Stefanuk also lends his talents as a staff
-          organist at Earl Smith Strand Theatre in Marietta, GA and as an accompanist for renowned artists such as Magdalena Wor.</p>
+          <p>Misha Stefanuk has had a multifaceted musical career. Currently, he serves as the accompanist at Glen
+            Memorial UMC,
+            Decatur, GA and as the music director at Winters Chapel UMC, Atlanta, GA. Stefanuk also lends his talents as
+            a staff
+            organist at Earl Smith Strand Theatre in Marietta, GA and as an accompanist for renowned artists such as
+            Magdalena Wor.</p>
 
-          <p>In addition to these roles, Stefanuk has undertaken a variety of freelance projects. These include performing as an
-          accompanist for artists like Laquita Mitchel and Tim Miller, as well as at the Atlanta Music Festival. He has played at
-          several private events at high-end venues such as the Ritz Carlton and Four Seasons. He also served as an organist for
-          two churches in New Jersey from 1999-2001.</p>
+          <p>In addition to these roles, Stefanuk has undertaken a variety of freelance projects. These include
+            performing as an
+            accompanist for artists like Laquita Mitchel and Tim Miller, as well as at the Atlanta Music Festival. He
+            has played at
+            several private events at high-end venues such as the Ritz Carlton and Four Seasons. He also served as an
+            organist for
+            two churches in New Jersey from 1999-2001.</p>
 
-          <p>Stefanuk's academic engagements include being a staff accompanist at the Blair School of Music, Vanderbilt University.
-          He was also an organist at St. Augustine Episcopal Church, Nashville, TN and a pianist at both Washington State
-          University and Belmont University School of Music. Additionally, Stefanuk led a modern jazz trio, MooseKnows, and was a
-          pianist for Patephone in Moscow, Russia.</p>
-        </div></div>
-        <div class="upDown">
-          <a href="#five">
-            <div class="next">
-              <img src="./media/svg/downArrow.svg" />
-            </div>
-          </a>
-          <a href="#three">
+          <p>Stefanuk's academic engagements include being a staff accompanist at the Blair School of Music, Vanderbilt
+            University.
+            He was also an organist at St. Augustine Episcopal Church, Nashville, TN and a pianist at both Washington
+            State
+            University and Belmont University School of Music. Additionally, Stefanuk led a modern jazz trio,
+            MooseKnows, and was a
+            pianist for Patephone in Moscow, Russia.</p>
+        </div>
+      </div>
+      <div class="upDown">
+        <a href="#five">
+          <div class="next">
+            <img src="./media/svg/downArrow.svg" />
+          </div>
+        </a>
+        <a href="#three">
           <div class="previous">
             <img src="./media/svg/upArrow.svg" />
           </div>
-          </a>
-        </div>
-     
+        </a>
+      </div>
+
     </section>
 
     <!-- SECTION FIVE -->
     <section id="five" class="content-section section-five">
-  </div>
+      <div class="content-content">
+        <div class="content-text">
+          <h1>Publication</h1>
+          <p>Misha Stefanuk is an esteemed musician and composer with an extensive publication portfolio. His work
+            includes over 100
+            titles with Sheetmusicplus, two being best-sellers. He also collaborated with Mel Bay Publications, creating
+            impactful
+            works like "Jazz Piano Chords," "Jazz Piano Scales," and more, with three reaching best-seller status.</p>
+
+          <p>Additionally, Stefanuk's work is recognized by various platforms. He authored "Piano for Adults - European
+            Method" for
+            First Books Library, contributed to the American Theatre Organ Society Magazine, and wrote a monthly column
+            in Creative
+            Keyboard. Lulu Publications also published his works, including "Music for Organ, Volume 1," and "Jazz Piano
+            Lessons."</p>
+
+          <p>Stefanuk's influence extends to interviews and articles in diverse publications and media. He has been
+            featured in
+            "Russian Music Newspaper," "The Tennessean," "Belmont Vision," "Moscow-Pullman News," Vanderbilt Radio, and
+            Nashville
+            Channel 5, highlighting his contributions to music, especially in piano and jazz.</p>
+        </div>
+      </div>
+
+      </div>
       <div class="upDown">
-        <a href="#four">
+        <a href="#six">
           <div class="next">
+            <img src="./media/svg/downArrow.svg" />
+          </div>
+        </a>
+        <a href="#four">
+          <div class="previous">
             <img src="./media/svg/upArrow.svg" />
           </div>
         </a>
-        <a href="#one">
-        <div class="previous">
-          <img src="./media/svg/returnArrow.svg" />
-        </div>
-        </a>
-   
+      </div>
     </section>
 
+    <!-- SECTION SIX -->
+    <section id="six" class="content-section section-six">
+      <div class="content-content">
+        <div class="content-text">
+
+          <h1>Education</h1>
+          <p>Misha Stefanuk's early education began in Moscow, Russia, where he studied at Moscow Children’s Music
+            School and Special
+            German School. His music-focused studies continued at Moscow College of Improvised Music and Moscow
+            Conservatory School,
+            earning a BM in Improvisation and Musicology, respectively. He also spent time studying Nuclear Physics at
+            Moscow
+            Engineering Physics Institute.</p>
+
+          <p>In the United States, Stefanuk earned a Bachelor of Music from Belmont University in Nashville, TN in 1995.
+            That same
+            year, he attended the Skidmore Jazz Institute's summer school in Saratoga Springs, NY, and later undertook
+            Graduate
+            Studies in Composition at Washington State University.</p>
+
+          <p>Stefanuk concluded his educational journey with a Master of Music in Music Education from Boston University
+            in 2007. His
+            education was enriched by masterclasses with renowned musicians such as Kirill Volkov, John Stowell, and
+            Tony Fenelon,
+            contributing significantly to his music career.</p>
+        </div>
+      </div>
+
+      </div>
+      <div class="upDown">
+        <a href="#seven">
+          <div class="next">
+            <img src="./media/svg/downArrow.svg" />
+          </div>
+        </a>
+        <a href="#five">
+          <div class="previous">
+            <img src="./media/svg/upArrow.svg" />
+          </div>
+        </a>
+      </div>
+    </section>
+
+
+    <!-- SECTION SEVEN -->
+    <section id="seven" class="content-section section-seven">
+      <div class="content-content">
+
+        <iframe
+          src="https://testingevents.notion.site/fc222a2d64954f60bb6e8eb15e3f330d?v=403e70bc1592476ea870f90494d8ec52&pvs=4"
+          width="100%" height="500" style="border: none;"></iframe>
+
+
+        <div class="upDown">
+          <a href="#six">
+            <div class="next">
+              <img src="./media/svg/upArrow.svg" />
+            </div>
+          </a>
+          <a href="#one">
+            <div class="previous">
+              <img src="./media/svg/returnArrow.svg" />
+            </div>
+          </a>
+        </div>
+    </section>
   </main>
 
 
