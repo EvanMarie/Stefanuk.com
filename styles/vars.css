@@ -1,0 +1,57 @@
+:root {
+
+    /* COLORS */
+
+    --lighter: #d9e0ff;
+    --lighterTransparent: rgba(207, 205, 255, 0.5);
+    --light: #B8CDFF;
+    --lightTransparent: rgba(184, 205, 255, 0.5);
+    --medium: #5C667F;
+    --mediumTransparent: rgba(92, 102, 127, 0.5);
+    --dark: #2E3340;
+    --darkTransparent: rgba(46, 51, 64, 0.95);
+    --darker: #232730;
+    --darkerTransparent: rgba(35, 39, 48, 0.5);
+    --hoverLight: #8290FA;
+    --hoverLightTransparent: rgba(130, 144, 250, 0.5);
+    --hoverDark: #444B82;
+    --hoverDarkTransparent: rgba(68, 75, 130, 0.5);
+    --accentLight: #7d95ff;
+    --accentLightTransparent: rgba(166, 184, 229, 0.8);
+    --accentDark: #3F4C8B;
+    --accentDarkTransparent: rgba(63, 76, 139, 0.5);
+
+    /* SHADOWS */
+
+    --xsmallShadowLight: 2px 2px 3px rgba(255, 255, 255, 0.5);
+    --xsmallShadowDark: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    --smallShadowLight: 2px 2px 5px rgba(255, 255, 255, 0.5);
+    --mediumShadowLight: 2px 2px 8px rgba(255, 255, 255, 0.5);
+    --mediumShadowDark: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    --largeShadowLight: 2px 2px 10px rgba(255, 255, 255, 0.5);
+    --largeShadowDark: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    --xlargeShadowLight: 2px 2px 15px rgba(255, 255, 255, 0.7);
+    --xlargeShadowDark: 2px 2px 15px rgba(0, 0, 0, 0.7);
+
+
+    --xsmallGlowLight: 1px 1px 3px rgba(255, 255, 255, 0.5);
+    --xsmallGlowDark: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    --smallGlowLight: 1px 1px 5px rgba(255, 255, 255, 0.5);
+    --mediumGlowLight: 1px 1px 8px rgba(255, 255, 255, 0.5);
+    --mediumGlowDark: 1px 1px 8px rgba(0, 0, 0, 0.5);
+    --largeGlowLight: 1px 1px 10px rgba(255, 255, 255, 0.5);
+    --largeGlowDark: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    --xlargeGlowLight: 2px 2px 18px rgba(255, 255, 255, 0.7);
+    --xlargeGlowDark: 2px 2px 18px rgba(0, 0, 0, 0.7);
+    
+
+    --softGlow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+    --softShadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    --moreGlow: 1px 1px 15px rgba(255, 255, 255, 0.5);
+    --moreShadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+
+    /* DEFAULT BORDER RADIUS */
+
+    --radius: 5px;
+}
+
