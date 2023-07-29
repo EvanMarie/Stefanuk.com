@@ -22,30 +22,51 @@
     padding: 0 10px 50px 10px;
 }
 
+@media (min-width: 525px) {
+    .content-content {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .content-content {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
 .section-one {
     color: var(--lighter);
-    background-image: url("../media/images/section01.png");
+    background-image: url("../media/images/section01Mobile.png");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+}
+
+@media (min-width: 525px) {
+    .section-one {
+        background-image: url("../media/images/section01.png");
+    }
 }
 
 .section-two {
     color: var(--lighter);
-    background-image: url("../media/images/section02.png");
+    background-image: url("../media/images/section02Mobile.png");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
 
+@media (min-width: 525px) {
+    .section-two {
+        background-image: url("../media/images/section02.png");
+    }
+}
 
-.content-text, .grid-text {
+.content-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,11 +82,17 @@
 
 /* *************************************************************** */
 
+@media (min-width: 600px) {
+    .content-text {
+        font-size: 1.45rem;
+    }
+}
+
 @media (min-width: 525px) {
     .section-two .content-content {
         align-items: flex-end;
-        padding-right: 20px;
     }
+
     .content-text {
         max-width: 500px;
     }
@@ -81,11 +108,23 @@
     .content-section {
         padding-top: 100px;
     }
+
     .content-content {
-            padding-right: 50px;
-        }
+        justify-content: center;
+    }
+
     .content-text {
         max-width: 700px;
+        padding: 30px;
+        font-size: 1.6rem;
+    }
+}
+
+@media(min-width: 1300px) {
+
+    .content-text {
+        max-width: 800px;
+        font-size: 1.8rem;
         padding: 30px
     }
 }
@@ -93,50 +132,65 @@
 /* *************************************************************** */
 
 .section-three {
-    background-color:var(--darker);
     color: var(--lighter);
+    background-image: url("../media/images/section03Mobile.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.section-grid {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    grid-template-rows: auto 1fr;
-    grid-auto-flow: dense;
-    width: 80%;
-    margin: auto;
-}
+@media (min-width: 525px) {
+    .section-three .content-content {
+        align-items: flex-start;
+    }
 
-.grid-text{
-grid-column: 1 / 3;
-grid-row: 1 / 3;
-text-align: right;
-}
-
-.grid-image {
-
-    border-radius: var(--radius);
-    display: none;
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-    align-self: start;
-    justify-self: end;
-}
-
-@media (min-width: 800px) {
-    
-    
-    .grid-image {
-        width: 350px;
-        display: block;
+    .section-three {
+        background-image: url("../media/images/section03.png");
     }
 }
 
+
 .section-four {
-    background-color:var(--darker);
     color: var(--lighter);
+    background-image: url("../media/images/section04Mobile.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media (min-width: 525px) {
+    .section-four .content-content {
+        align-items: flex-end;
+    }
+
+    .section-four {
+        background-image: url("../media/images/section04.png");
+    }
 }
 
 .section-five {
-    background-color:var(--darker);
     color: var(--lighter);
+    background-image: url("../media/images/section05Mobile.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media (min-width: 525px) {
+    .section-five .content-content {
+        align-items: flex-start;
+    }
+
+    .section-five {
+        background-image: url("../media/images/section05.png");
+    }
 }

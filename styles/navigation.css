@@ -1,9 +1,9 @@
 .logo {
-width: 150px;
-height: 50px;
-font-size: 3rem;
-padding: 0px 10px;
-text-shadow: var(--xlargeGlowDark);
+    width: 150px;
+    height: 50px;
+    font-size: 3rem;
+    padding: 0px 10px;
+    text-shadow: var(--xlargeGlowDark);
 }
 
 .topNav {
@@ -11,7 +11,7 @@ text-shadow: var(--xlargeGlowDark);
     top: 0px;
     z-index: 10;
     display: flex;
-    height: 7rem;
+    height: 6rem;
     width: 100%;
     align-items: center;
     justify-content: space-between;
@@ -68,7 +68,8 @@ text-shadow: var(--xlargeGlowDark);
     z-index: 100;
     height: 100vh;
     width: 300px;
-    background-color: var(--accentLightTransparent);;
+    background-color: var(--accentLightTransparent);
+    ;
     padding: 2.5rem;
     box-shadow: -1px -1px 10px 0px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease-in-out;
@@ -93,9 +94,6 @@ text-shadow: var(--xlargeGlowDark);
 .sideNavItems {
     font-size: 2rem;
 }
-
-
-
 
 .close {
     width: 100%;
@@ -131,17 +129,21 @@ text-shadow: var(--xlargeGlowDark);
     transform: translateX(0);
 }
 
-.next {
-    display: flex;
-    justify-content:center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 30px;
-    padding-bottom: 10px;
+.upDown {
     position: absolute;
-    bottom: 0px;
-    left: 50%;
-   display: flex;
-    align-self: center;
+    width: 100%;
+    bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
+.next, .previous {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
