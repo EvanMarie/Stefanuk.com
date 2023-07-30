@@ -24,7 +24,7 @@
   <div id="sideNav" class="sideNav invisible">
     <div class="nav-menu-header">
 
-      <div class="menu-logo-container">
+      <div class="menu-logo-container" id="menu-logo">
         <a href="#one">
           <img src="./media/images/mishaLogo.png" alt="Misha V. Stefanuk" class="menu-logo">
         </a>
@@ -409,7 +409,7 @@
 
 
     // IDs array - close menu when one of these is clicked
-    const ids = ["closeIcon", 'navOne', 'navTwo', 'navThree', 'navFour', 'navFive', "one", "two", "three", "four", "five"];
+    const ids = ["closeIcon", 'navOne', 'navTwo', 'navThree', 'navFour', 'navFive', "one", "two", "three", "four", "five", "menu-logo"];
 
     // add event listener to each ID
     ids.forEach(id => {
