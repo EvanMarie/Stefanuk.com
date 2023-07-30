@@ -10,7 +10,8 @@
     --mediumTransparent: rgba(92, 102, 127, 0.5);
     --dark: #2E3340;
     --darkTransparent: rgba(46, 51, 64, 0.95);
-    --darker: #232730;
+    /* --darker: #232730; */
+    --darker: rgb(1, 2, 3);
     --darkerTransparent: rgba(35, 39, 48, 0.95);
     --hoverLight: #8290FA;
     --hoverLightTransparent: rgba(130, 144, 250, 0.5);
