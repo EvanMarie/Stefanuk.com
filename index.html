@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Misha V. Stefanuk
   </title>
-  <link rel="shortcut icon" href="" type="image/x-icon" />
   <link rel="stylesheet" href="./styles/animate.css" />
   <link rel="stylesheet" href="./styles/vars.css" />
   <link rel="stylesheet" href="./styles/defaults.css" />
@@ -23,20 +22,41 @@
 
 <body>
   <div id="sideNav" class="sideNav invisible">
-    <div class="close" id="closeIcon">
-      <img src="./media/svg/closeButton.svg" />
+    <div class="nav-menu-header">
+
+      <div class="menu-logo-container">
+        <a href="#one">
+          <img src="./media/images/mishaLogo.png" alt="Misha V. Stefanuk" class="menu-logo">
+        </a>
+      </div>
+      <div class="close" id="closeIcon">
+        <img src="./media/svg/closeButton.svg" />
+      </div>
     </div>
     <div class="sideNavContainer">
       <div class="sideNavStack">
+        <a href="https://open.spotify.com/artist/6xbFMr1ARsMigJhrTO9P4u" class="navItems sideNavItems" id="navFive"
+          target="_blank">Spotify</a>
+        <a href="https://www.youtube.com/@Mishastefanuk" class="navItems sideNavItems" id="navFive"
+          target="_blank">YouTube (main)</a>
+        <a href="https://youtube.com/playlist?list=PLUIlJVpmilpfxH1RKegyBESGnB64cXF8Q"
+          class="navItems sideNavItems ytsub" id="navSeven" target="_blank">Live Music @ Home</a>
+        <a href="https://youtube.com/playlist?list=PLUIlJVpmilpc-TLSQPiUIezeeexqU6RoS"
+          class="navItems sideNavItems ytsub" id="navEight" target="_blank">American Songbook</a>
+        <a href="https://www.youtube.com/playlist?list=PLUIlJVpmilpd-_J3lZRZg-NdCCcg15nY1"
+          class="navItems sideNavItems ytsub" id="navNine" target="_blank">Solo Improvisations</a>
+        <a href="https://www.youtube.com/watch?v=Od07KJ2wZFo&list=PLUIlJVpmilpfxH1RKegyBESGnB64cXF8Q&pp=iAQB"
+          class="navItems sideNavItems ytsub" id="navTen" target="_blank">Guest Musicians</a>
         <a href="https://www.melbay.com/Author/Default.aspx?AuthorId=37585" class="navItems sideNavItems" id="navOne"
-          target="_blank">MelBay Publications</a>
+          target="_blank">Mel Bay Publications</a>
         <a href="https://www.sheetmusicplus.com/publishers/misha-stefanuk-sheet-music/3004585?ac=1" target="_blank"
           class="navItems sideNavItems" id="navTwo">SheetMusicPlus</a>
         <a href="https://www.facebook.com/MishaStefanukGroup/" target="_blank" class="navItems sideNavItems"
           id="navThree">Misha Stefanuk Group</a>
-        <a href="#" class="navItems sideNavItems" id="navFour">Link Four</a>
-        <a href="#" class="navItems sideNavItems" id="navFive">Link Five</a>
-        <a href="#" class="navItems sideNavItems" id="navSix">Resume</a>
+        <!-- <a href="https://bourbonbrothersband.com/shows" target="_blank" class="navItems sideNavItems"
+          id="navFour">Bourbon Brothers</a> -->
+        <!-- <a href="/booking.html" target="_blank" class="navItems sideNavItems" id="navFive">Booking</a> -->
+        <a href="./media/MishaStefanukResume.pdf" target="_blank" class="navItems sideNavItems" id="navSix">Resume</a>
       </div>
 
       <div class="socialMedia">
@@ -46,10 +66,11 @@
         <a href="https://www.instagram.com/mishastefanuk/" target="_blank">
           <img src="./media/svg/instagram.svg" />
         </a>
-        <a href="https://www.youtube.com/playlist?list=PLUIlJVpmilpeNJ171ZC-kjbHVrjZLy8c6" target="_blank">
+        <a href="https://www.youtube.com/@Mishastefanuk" target="_blank">
           <img src="./media/svg/youtube.svg" />
         </a>
-        <a href="" target="_blank"><img src="./media/svg/spotify.svg" </a>
+        <a href="https://open.spotify.com/artist/6xbFMr1ARsMigJhrTO9P4u" target="_blank"><img
+            src="./media/svg/spotify.svg" </a>
           <a href="mailto:misha@stefanuk.com" target="_blank">
             <img src="./media/svg/email.svg" />
           </a>
@@ -60,7 +81,7 @@
 
       <a href="https://www.iheartcomponents.com/" target="_blank">
         <div class="iheartcomponents">
-          Designed and Created by <img src="./media/images/iheartcomponents.png" class="iheart" />
+          Created by <img src="./media/images/iheartcomponents.png" class="iheart" />
         </div>
       </a>
     </div>
@@ -76,22 +97,39 @@
 
         <!-- top nav items  -->
         <div class="topNavContainer">
-          <a href="#two" class="navItems hiddenNav">Bio</a>
+          <a href="#two" class="navItems hiddenNav">About</a>
           <a href="#three" class="navItems hiddenNav">Awards</a>
           <a href="#four" class="navItems hiddenNav">Performance</a>
           <a href="#five" class="navItems hiddenNav">Publication</a>
           <a href="#six" class="navItems hiddenNav">Education</a>
-          <a href="#seven" class="navItems hiddenNav">Events</a>
+          <!-- <a href="#seven" class="navItems hiddenNav">Events</a> -->
         </div>
 
-        <a href="#" class="navItems menu" id="menu"> Media</a>
-
+        <div class="menu" id="menu">
+          <a href="#">
+            <div class="sideNavButtonBox">
+              <img src="./media/svg/piano.svg" style="width: 30px" />
+              Media
+          </a>
+        </div></a></div>
       </nav>
     </header>
 
     <!-- SECTION ONE -->
     <section id="one" class="content-section section-one">
-      <div class="content-content"> </div>
+      <div class="video-background desktop">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="./media/videoDesktop.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="video-background mobile">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="./media/videoMobile.mov" type="video/mp4">
+        </video>
+      </div>
+      <div class="swipe-container">
+        <img src="./media/images/swipe.png" class="swipe" />
+      </div>
       <div class="upDown">
         <a href="#two">
           <div class="next">
@@ -99,6 +137,8 @@
           </div>
         </a>
       </div>
+      </div>
+
 
     </section>
 
@@ -245,7 +285,7 @@
     <section id="five" class="content-section section-five">
       <div class="content-content">
         <div class="content-text">
-          <h1>Publication</h1>
+          <h1>Publications</h1>
           <p>Misha Stefanuk is an esteemed musician and composer with an extensive publication portfolio. His work
             includes over 100
             titles with Sheetmusicplus, two being best-sellers. He also collaborated with Mel Bay Publications, creating
@@ -261,9 +301,9 @@
 
           <p>Stefanuk's influence extends to interviews and articles in diverse publications and media. He has been
             featured in
-            "Russian Music Newspaper," "The Tennessean," "Belmont Vision," "Moscow-Pullman News," Vanderbilt Radio, and
+            "Russian Music Newspaper," "The Tennessean," "Belmont Vision," "Moscow-Pullman News," Vanderbilt Radio,
             Nashville
-            Channel 5, highlighting his contributions to music, especially in piano and jazz.</p>
+            Channel 5, and ClusterTV, Atlanta highlighting his contributions to music, especially in piano and jazz.</p>
         </div>
       </div>
 
@@ -304,9 +344,9 @@
 
           <p>Stefanuk concluded his educational journey with a Master of Music in Music Education from Boston University
             in 2007. His
-            education was enriched by masterclasses with renowned musicians such as Kirill Volkov, John Stowell, and
-            Tony Fenelon,
-            contributing significantly to his music career.</p>
+            education was enriched by masterclasses with renowned musicians such as Kirill Volkov, John Stowell, Chick
+            Corea and
+            Tony Fenelon, contributing significantly to his music career.</p>
         </div>
       </div>
 
@@ -327,11 +367,11 @@
 
 
     <!-- SECTION SEVEN -->
-    <section id="seven" class="content-section section-seven">
+    <!-- <section id="seven" class="content-section section-seven">
       <div class="content-content">
         <div class="events">
           <h1>Events</h1>
-          <div data-tockify-component="calendar" data-tockify-calendar="evanmarie"></div>
+          <div data-tockify-component="calendar" data-tockify-calendar="stefanukevents"></div>
           <script data-cfasync="false" data-tockify-script="embed"
             src="https://public.tockify.com/browser/embed.js"></script>
         </div>
@@ -349,7 +389,7 @@
             </div>
           </a>
         </div>
-    </section>
+    </section> -->
   </main>
 
 

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Misha V. Stefanuk </title>
+    <link rel="stylesheet" href="./styles/vars.css" />
+    <link rel="stylesheet" href="./styles/defaults.css" />
+    <link rel="stylesheet" href="./styles/booking.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/styleComponents.css" />
+    <link rel="icon" type="image" href="./media/images/favicon.ico" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="contact-intro">
+                <h1>Booking</h1>
+                <p>Somthing about how misha plays gigs.</p>
+            </div>
+
+            <div class="form-contents">
+                <form id="ContactForm">
+                    <div class="name">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="email">
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="phone">
+                        <label for="phone">Phone:</label><br>
+                        <input type="tel" id="phone" name="phone" maxlength="12">
+                    </div>
+                    <div class="address">
+                        <label for="street-address">Location street address:</label><br>
+                        <input type="text" id="street-address" name="street-address">
+                        <label for="city">City:</label><br>
+                        <input type="text" id="city" name="city">
+                        <label for="state">State:</label><br>
+                        <input type="text" id="state" name="state" maxlength="2">
+                        <label for="zip">Zip:</label><br>
+                        <input type="zip" id="zip" name="zip" maxlength="5">
+                    </div>
+
+                    <div class="dates-times">
+                        <div class="dates">
+                            <label for="event-start">Event start:</label><br>
+                            <input type="date" id="event-start" name="event-start">
+                            <input type="time" id="event-start-time" name="event-start-time">
+                        </div>
+                        <div class="dates">
+                            <label for="event-end">Event end:</label><br>
+                            <input type="date" id="event-end" name="event-end">
+                            <input type="time" id="event-end-time" name="event-end-time">
+                        </div>
+
+                        <label for="message">Additional Details:</label><br>
+                    </div>
+                    <textarea id="message" name="message"></textarea><br>
+
+                    <input class="contact-button" type="submit" value="Submit">
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+    <script>
+        // Load EmailJS
+        window.emailjs.init("YOUR_USER_ID");
+
+        // Attach a submit event handler to the form
+        document.getElementById('ContactForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            // Use EmailJS to send the form data as an email
+            emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+                .then(function () {
+                    console.log('Email successfully sent!');
+                })
+                .catch(function (error) {
+                    console.error('Error sending email:', error);
+                });
+        });
+    </script>
+
+</body>
+
+</html>
